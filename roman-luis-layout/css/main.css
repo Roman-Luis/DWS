@@ -6,13 +6,13 @@ li {
 		display: inline;
 		padding: 5 px;
 					}
-.column1of2 {
+.column1 {
 		width: 700px;
 		float: left;
 		margin:15px;
 		padding:10px;
 		}					
-.column2of2 {
+.column2 {
 		width: 220px;
 		float: right;
 		margin: 10px;
@@ -41,3 +41,8 @@ p, ul {
 		border: 1px solid #665544
 		background-color: #efefef;
 		padding: 10px;}
+#nav, #footer {
+	background-color: black;
+	padding: 0.5em 0;}
+#nav, #feature, #footer {
+	margin: 1%}
